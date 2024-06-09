@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  
+</head>
+<body>
+<main class="main">
+<section class="firstsection">
+  <div class="firstsectiondiv">
+  <p class="DMY" id="dayP">D A Y</p>
+  <input class="textbox" type="number" id="day" placeholder="DD">
+  <p id="dayError" class="errorsP" style="color: red; display: none; "></p>
+  </div>
+  <div>
+  <p class="DMY" id="monthP">M O N T H</p>
+  <input class="textbox" type="number" id="month" placeholder="MM">
+  <p id="monthError" class="errorsP" style="color: red; display: none;"></p>
+  </div>
+  <div>
+  <p class="DMY" id="yearP">Y E A R</p>
+  <input class="textbox" type="number" id="year" placeholder="YYYY">
+  <p id="yearError" class="errorsP" style="color: red;display: none; "></p>
+  </div>
+</section>
+
+<div class="betweensections">
+<div class="borderless"></div>
+<button class="radiusicon" onclick="calculateAge()">
+  <div class="centered-image"></div>
+</button>
+</div>
+<section class="secondsection">
+  <div class="datee"><span class="dash" id="ageYears">- - </span> years</div>
+  <div class="datee"><span class="dash" id="ageMonths">- - </span> months</div>
+  <div class="datee"><span class="dash" id="ageDays">- - </span> days</div>
+</section>
+</main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="index.js"></script>
+</body>
+</html>

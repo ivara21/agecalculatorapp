@@ -1,0 +1,150 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 94%);
+  font-family: "Poppins", sans-serif;;
+}
+
+.main {
+  height: 400px;
+  width: 600px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 50px;
+  border-radius:20px 20px 160px 20px;
+  
+}
+
+.textbox {
+  width: 100px;
+  height: 25px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 15px;
+  color: hsl(0, 1%, 44%);
+  border-color: hsl(0, 0%, 86%);
+}
+
+.firstsection {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.firstsection div{
+  display: inline-block;
+}
+
+.firstsection p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(0, 1%, 44%);
+}
+
+ .firstsection .errorsP {
+  font-size: 10px;
+  margin: 0;
+}
+
+.betweensections {
+  display: inline-block;
+  width: 600px;
+}
+
+.borderless {
+  border:solid;
+  border-color: hsl(0, 0%, 86%);
+  width: 520px;
+  height: 20px;
+  margin-top: 20px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-width: 2px;
+  display: inline-block;
+  align-items: start;
+
+}
+
+.radiusicon {
+  width: 70px; /* Adjust the overall button size */
+  height: 70px;
+  border-radius: 50%; /* This makes the button circular */
+  background-color: hsl(259, 100%, 65%);
+  position: relative;
+  border: none;
+  margin-left: -20px;
+}
+
+.centered-image {
+  margin-top: 20px;
+  margin-left: 20px;
+  background-image: url(assets/images/icon-arrow.svg);
+  width: 30px;
+  height: 30px;
+  background-size: cover; /* Adjust the background size */
+  background-position: center; /* Center the background image */
+  border-radius: 50%; /* This makes the inner element circular */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.secondsection {
+  margin-top: -10px;
+  font-size: 70px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.dash {
+  color:hsl(259, 100%, 65%);
+}
+
+.datee {
+  margin-bottom: -20px;
+}
+
+
+@media (min-width: 175px) and (max-width: 720px) {
+
+  /* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+
+  .main {
+    height: 500px;
+    width: 450px;
+    margin-left: 300px;
+    margin-top: 300px;
+  }
+  .betweensections {
+    display: flex;
+    
+  }
+  .centered-image {
+    position: absolute;
+  }
+  .radiusicon {
+    margin-left: -250px;
+  }
+  
+  .borderless {
+    width: 450px;
+  }
+
+  .betweensections {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
