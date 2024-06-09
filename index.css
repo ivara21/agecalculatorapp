@@ -82,6 +82,11 @@ body {
   margin-left: -20px;
 }
 
+.radiusicon:active {
+  background-color: hsl(0, 0%, 8%);
+}
+
+
 .centered-image {
   margin-top: 20px;
   margin-left: 20px;
